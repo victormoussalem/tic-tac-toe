@@ -31,11 +31,11 @@ body{
 
 .p1{
 
-	background: url("./images/cross.png");
+	background: url("/images/cross.png");
 }
 
 .p2{
-	background: url("./images/circle.png");
+	background: url("/images/circle.png");
 }
 
 .button{
