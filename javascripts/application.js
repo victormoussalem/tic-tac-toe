@@ -10,20 +10,20 @@ jQuery(document).ready(function ($) {
 		});
 
 	if (player) {
-			$("#player").html("O's");
+			$("#player").html("Victor's");
 		}
-	else $("#player").html("X's");
+	else $("#player").html("Ambar's");
 
 	$(".block").click(function(){
 		$("#start_msg").hide();
 		if (free(this.id)){
 			if (player){
-				$("#player").html("O's");
+				$("#player").html("Victor's");
 				blocks[this.id] = 1;
 				draw(this.id, player);
 				}
 			else {
-				$("#player").html("X's");
+				$("#player").html("Ambar's");
 				blocks[this.id] = 2;
 				draw(this.id, player);
 				}
